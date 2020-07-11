@@ -1,0 +1,56 @@
+.wp-inner{
+    width: 1170px;
+    margin: 0px auto;
+}
+.fl-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.text-justify {
+    text-align: justify;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .fl-left {
+    float: left;
+  }
+  
+  .fl-right {
+    float: right;
+  }
+  
+  .text-wrap-right {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  #list-featured li a,
+  .widget-list-posts li a {
+    font-family: "Roboto Medium";
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  ul li:hover > a {
+    color: #01a050;
+    transition: all 0.25s;
+  }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
